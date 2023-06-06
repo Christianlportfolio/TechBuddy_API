@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TechBuddyAPI.Data.AdminDTO">
+    <Position X="16.5" Y="3.75" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TechBuddyAPI.Data.AdminDTO.AnswerAdminDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\AdminDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.AdminDTO.AnswerAdminWithPromptDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\AdminDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.AdminDTO.NoAnswerAdminDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\AdminDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\AdminDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Data.ChatBotDTO">
+    <Position X="20.5" Y="3.75" Width="4" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TechBuddyAPI.Data.ChatBotDTO.AnswerWithpromptDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\ChatBotDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.ChatBotDTO.AnswerDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\ChatBotDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.ChatBotDTO.WrongAnswerDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\ChatBotDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ChatBotDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Data.KnowledgeSourceDTO">
+    <Position X="25.25" Y="3.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="TechBuddyAPI.Data.KnowledgeSourceDTO.AddQnADTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\KnowledgeSourceDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.KnowledgeSourceDTO.AddQnADTOWithPrompt">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\KnowledgeSourceDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.KnowledgeSourceDTO.UpdateQnAQuestionDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\KnowledgeSourceDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.KnowledgeSourceDTO.UpdateQnADTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\KnowledgeSourceDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="TechBuddyAPI.Data.KnowledgeSourceDTO.AddKnowledgeBaseSourceDTO">
+        <TypeIdentifier>
+          <NewMemberFileName>Data\KnowledgeSourceDTO.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\KnowledgeSourceDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Data.TechBuddyContext">
+    <Position X="28.75" Y="1.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\TechBuddyContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Models.CustomerQuestion">
+    <Position X="9.75" Y="3.75" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACABAACIIIAAQAQAAAAAAAAGAAAAAAAIAAA=</HashCode>
+      <FileName>Models\CustomerQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Controllers.CyberSecurityController">
+    <Position X="0.5" Y="1.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Controllers\CyberSecurityController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Controllers.DashBoardController">
+    <Position X="0.5" Y="7.25" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>AQIIAAAAACAEBAAAAgAAgAgBAAgAAAAEAAAAbECAAAA=</HashCode>
+      <FileName>Controllers\DashBoardController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Controllers.TechBuddyController">
+    <Position X="0.5" Y="4" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAAAEBAAAAAEAAAgAAAgAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Controllers\TechBuddyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Controllers.AuthController">
+    <Position X="10.5" Y="11.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAICAAAAEAEBAAAAAAAAAAAAAABAAAAEAAQAAAAAAA=</HashCode>
+      <FileName>Controllers\AuthController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TechBuddyAPI.Models.Users">
+    <Position X="5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAQAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
